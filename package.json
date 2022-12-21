@@ -7,8 +7,8 @@
     "url": "git+https://github.com/Jamesooni/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/init.js",
-    "assets": "webpack --config webpack.config.js"
+    "dev:server": "nodemon",
+    "dev:assets": "webpack"
   },
   "author": "Jamesooni",
   "license": "ISC",
@@ -33,7 +33,12 @@
     "@babel/node": "^7.20.0",
     "@babel/preset-env": "^7.19.4",
     "babel-loader": "^8.2.2",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.2",
     "nodemon": "^2.0.20",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0"
   }
